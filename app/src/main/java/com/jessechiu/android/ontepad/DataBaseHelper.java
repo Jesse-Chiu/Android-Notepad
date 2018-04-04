@@ -8,7 +8,6 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 // 继承 SQL 接口类
 public class DataBaseHelper extends SQLiteOpenHelper {
-
     public static final String NOTEPAD_DB = "notepad";
     public static final String COST_TITLE = "cost_title";
     public static final String COST_DATE = "cost_date";
@@ -19,7 +18,6 @@ public class DataBaseHelper extends SQLiteOpenHelper {
         // 创建数据库
         super(context, NOTEPAD_DB,null,1);
     }
-
     @Override
     public void onCreate(SQLiteDatabase db) {
         // 创建表格

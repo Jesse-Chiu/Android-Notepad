@@ -60,7 +60,6 @@ public class CostListAdapter extends BaseAdapter {
         return view;
     }
 
-    //
     private static class ViewHolder {
         TextView mTvConstTitle;
         TextView mTvConstDate;
